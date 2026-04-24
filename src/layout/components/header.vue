@@ -20,7 +20,6 @@ const handle = (path) => {
 
 <template>
   <div class="header">
-    到焊条
     <div class="menu" >
       <ul style="display: flex;">
         <li style="margin-right: 50px;" v-for="(item,index) in menuList" :key="index" @click="handle(item.path)">{{item.name}}</li>
@@ -32,6 +31,6 @@ const handle = (path) => {
 <style scoped>
 .header {
     width:100%;
-    background: red;
+    background: pink;
 }
 </style>

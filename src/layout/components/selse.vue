@@ -38,7 +38,7 @@ import { RouterView } from 'vue-router'
     .select {
         width: 100px;
         height: 100%;
-        background-color: aqua;
+        background-color: rgb(58, 176, 245);
     }
     .main {
         flex: 1;
